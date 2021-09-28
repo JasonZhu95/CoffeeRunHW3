@@ -5,9 +5,8 @@
         isCompanyEmail: function (email) {
             return /.+@starfleet\.com$/.test(email);
         }
-           
+
     };
     App.Validation = Validation;
     window.App = App;
-   })(window);
-   
+})(window);
